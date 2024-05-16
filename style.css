@@ -1,0 +1,109 @@
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #faf0dc;
+}
+
+header {
+  background-color: #472723;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin: 0;
+  font-size: 24px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #472723;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.featured-container {
+  display: flex;
+}
+
+.chocolate-container {
+  display: flex;
+}
+
+.chocolate-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 1.5rem;
+}
+
+.chocolate-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.chocolate-card h3 {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.chocolate-card p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #666;
+}
+
+.chocolate-card .add-to-cart-btn {
+  border: none;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+form,
+input {
+  margin: 0.5rem;
+}
+
+footer {
+  text-align: center;
+}
